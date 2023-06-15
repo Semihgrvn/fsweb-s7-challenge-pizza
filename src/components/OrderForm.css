@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: "Barlow", sans-serif;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+b {
+    font-size: 1.2rem;
+}
+
+.siparis-body {
+    margin: 0 auto;
+    text-align: left;
+    color: black;
+    width: 650px;
+    margin-bottom: 14rem;
+}
+
+#special-text {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.required {
+    color: red;
+}
+
+
+#name-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.order {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    flex: 2;
+    margin-left: 250px;
+    /* width: 50%; */
+    height: 150px;
+    /* text-align: center; */
+}
+
+.order-text {
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    margin-right: 150px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 40px;
+    padding-top: 5px;
+}
+
+#order-button {
+    width: 100%;
+    background-color: #fdc913;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.minus-button,
+.plus-button {
+    width: 2rem;
+    height: 2rem;
+    border: 0.5px solid #ccc;
+    background-color: #fdc913;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    font-size: 1.3em;
+    margin-top: 1px;
+
+}
+
+.general-qty {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.qty-of-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.size-dough-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.size-option label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+
+#toppings-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#toppings-checkboxes label {
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
